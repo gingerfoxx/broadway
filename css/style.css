@@ -5,10 +5,12 @@
 
 .flatiron {
   background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-font size: 70px;
+font-size: 70px;
 font-weight: bold;
 color: white;
 }
@@ -30,7 +32,7 @@ h4 {
 }
 
 p {
-
+font-size: 14px;
 }
 
 a {
@@ -43,4 +45,9 @@ a {
   font-size: 11px;
   color: white;
   background-color: dimgray;
+}
+
+.footer a {
+  font-size: 11px;
+  font-weight: bold;
 }
